@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Body Mass Index Calculator (BMI)</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Body Mass Index Calculator (BMI)</h1>
+
+      <!-- Option for providing age to the user -->
+      <p>Age</p>
+      <input type="text" id="age" placeholder="Enter your age"/>
+
+      <!-- Option for providing gender to the user -->
+      <p>Gender</p>
+      <select id="gender">
+        <option value="select">Select gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+      </select>
+
+      <!-- Options for providing height and weight to the user -->
+      <p>Height (in cm)</p>
+      <input type="text" id="height" placeholder="Height in cm"/>
+
+      <p>Weight (in kg)</p>
+      <input type="text" id="weight" placeholder="Weight in kg"/>
+
+      <button id="btn">Calculate</button>
+
+      <div id="result"></div>
+    </div>
+  </body>
+</html>

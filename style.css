@@ -1,0 +1,64 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: rgb(7, 176, 114);
+}
+
+p {
+  margin: 10px 0;
+  color: #666;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: rgb(7, 210, 7);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+button:hover {
+  background-color: rgb(99, 236, 99);
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+  /* Responsive styles for screens smaller than 600px */
+  .container {
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  input[type="text"],
+  select {
+    padding: 8px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+}
